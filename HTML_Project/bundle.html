@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle</title>
+    <style>
+        .main-div {
+            height: 400px;
+            width: 350px;
+            position: relative;
+            border: 2px solid black;
+            margin-left: 35%;
+            margin-top: 50px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .img {
+            position: absolute;
+            top: 120px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+        }
+
+        #inner-div {
+            position: absolute;
+            height: 180px;
+            width: 330px;
+            /* border: 1px solid black; */
+            left: 2.5%;
+            bottom: 0;
+
+        }
+
+        .textdiv {
+            height: 20px;
+            width: 160px;
+            background-color: lightgray;
+            padding-top: 2.5px;
+            padding-left: 5px;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        .full-tex-div{
+            height: 20px;
+            width: 320px;
+            background-color: lightgray;
+            padding-top: 2.5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+       
+
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="main-div">
+
+        <h3 class="text-center">APS GROUP</h3>
+        <img src="qrcode.png" alt="QR_Code" class="img">
+        <div id="inner-div">
+            <div style="display: flex;">
+                <p class="textdiv" style="margin-right:2.5px"><b>Order No: </b>104541</p>
+                <p class="textdiv"><b>Buyer: </b>Primark</p>
+            </div>
+            <div>
+                <pre class="full-tex-div"><b style="font-family: 'Times New Roman', Times, serif;">Bundle No.: </b>BASIC_JOG_LEG_WIDE_12_S_011</pre>
+            </div>
+            <div>
+                <pre class="full-tex-div"><b style="font-family: 'Times New Roman', Times, serif;">Style: </b>BASIC_JOG_LEG_WIDE</pre>
+            </div>
+            <div>
+                <p class="full-tex-div"><b>Color : </b> Black</p>
+            <div style="display: flex;">
+                <p class="textdiv" style="margin-right:2.5px"><b>Size : </b>S</p>
+                <p class="textdiv"><b>Qty : </b>9</p>
+            </div>
+            <div style="display: flex;">
+                <p class="textdiv" style="margin-right:2.5px"><b>Cut No : </b>12</p>
+                <p class="textdiv"><b>Lot : </b>Cutpcs</p>
+            </div>
+          
+            </div>
+            
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
